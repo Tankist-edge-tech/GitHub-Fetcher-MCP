@@ -140,7 +140,7 @@ Full reference is served live at `?help` — that copy is always current.
 ## Notes on sharing and limits
 
 - **No sign-in means open access.** Anyone who finds your URLs can use the tools — which spends *your* GitHub quota. Fine for personal use; if you need to gate it, add a simple key check in `mcp.ts` (compare a header against an env var).
-- **Token expiry:** fine-grained tokens expire (e.g. after 90 days). When yours does, `?status` flips to "anonymous" — generate a new one and update the env var.
+- **Token expiry:** fine-grained tokens can expire if not set to don't expire. When yours does, `?status` flips to "anonymous" — generate a new one and update the env var.
 - **Cost:** Val Town free tier is enough for personal use; GitHub API is free at 5,000 req/h.
 
 ## License
