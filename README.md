@@ -42,7 +42,7 @@ This repo contains the two source files. They are meant to be **pasted into [Val
 | `fetcher.ts` | The HTTP API val (the core). Works standalone. |
 | `mcp.ts` | MCP wrapper val. Optional — only needed for native Claude tools. |
 
-## Setup, part 1 — the fetcher API (~5 minutes)
+## Setup, part 1 — the fetcher API (~4 minutes)
 
 This is the exact path that works, including the two gotchas that cost me time.
 
@@ -85,7 +85,7 @@ That's it — any AI agent with web access can now use your API. Give it the URL
 
 > *You can fetch GitHub repo structures and file contents via this API. Call it with `?help` first — it is self-documenting.*
 
-## Setup, part 2 — native Claude tools via MCP (~10 minutes)
+## Setup, part 2 — native Claude tools via MCP (~4 minutes)
 
 Optional. This turns the API into three named tools inside Claude (`list_repo_files`, `fetch_repo_file`, `fetch_repo_readme`) using Claude's **custom connectors** (remote MCP servers).
 
