@@ -1,4 +1,6 @@
 # github-fetcher
+Many AI agents including Claude fail to fetch github repositories including files.
+**This MCP solves this.**
 
 **Give AI agents eyes on GitHub.** A self-documenting HTTP API + MCP server, hosted free on [Val Town](https://www.val.town), that turns any public GitHub repository into an AI-readable file tree and source fetcher. Works as a plain HTTP API from any agent, or as **native tools inside Claude** via a custom connector.
 
